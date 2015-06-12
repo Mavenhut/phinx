@@ -77,7 +77,7 @@ class Config implements ConfigInterface
         $configArray = array();
 
         $configArray['paths']['migrations'] = getcwd() . '/migrations';
-        $configArray['environments']['default_migration_table'] = 'migrations';
+        $configArray['environments']['default_migration_table'] = 'migrations_phinx';
         $configArray['environments']['default_database'] = 'db';
         $configArray['environments']['db']['adapter'] = 'mysql';
         $configArray['environments']['db']['port'] = '3306';
