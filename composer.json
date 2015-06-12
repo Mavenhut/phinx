@@ -1,9 +1,8 @@
 {
-    "name": "robmorgan/phinx",
+    "name": "Mavenhut/phinx",
     "type": "library",
-    "description": "Phinx makes it ridiculously easy to manage the database migrations for your PHP app.",
-    "keywords": ["phinx", "migrations", "database", "db", "database migrations"],
-    "homepage": "https://phinx.org",
+    "description": "Migration tool forked from robmorgan phinx",
+    "keywords": ["migrations", "database", "db", "database migrations"],
     "license": "MIT",
     "authors": [{
         "name": "Rob Morgan",
