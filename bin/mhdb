@@ -1,0 +1,19 @@
+#!/usr/bin/env php
+<?php
+/**
+ * MHDb runner
+ *
+ * @author MavenHut
+ * @version 0.1.1
+ */
+
+/**
+ * Load MavenHut core loader
+ */
+require_once __DIR__ . '/../../../Mavenhut/framework/Loader.php';
+
+/**
+ * Boot migration
+ */
+$app = require __DIR__ . '/../app/phinx.php';
+$app->run();
