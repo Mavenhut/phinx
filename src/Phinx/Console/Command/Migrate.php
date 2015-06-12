@@ -74,9 +74,6 @@ EOT
 
         if (null === $environment) {
             $environment = $this->getConfig()->getDefaultEnvironment();
-            $output->writeln('<comment>warning</comment> no environment specified, defaulting to: ' . $environment);
-        } else {
-            $output->writeln('<info>using environment</info> ' . $environment);
         }
 
         $envOptions = $this->getConfig()->getEnvironment($environment);

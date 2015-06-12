@@ -47,12 +47,11 @@ class PhinxApplication extends Application
      *
      * @param string $version The Application Version
      */
-    public function __construct($version = '0.4.3')
+    public function __construct($version = '0.4.7')
     {
-        parent::__construct('Phinx by Rob Morgan - https://phinx.org.', $version);
+        parent::__construct('MavenHut migration.', $version);
 
         $this->addCommands(array(
-            new Command\Init(),
             new Command\Create(),
             new Command\Migrate(),
             new Command\Rollback(),

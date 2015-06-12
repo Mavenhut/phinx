@@ -81,13 +81,6 @@ interface ConfigInterface extends \ArrayAccess
     public function getDefaultEnvironment();
 
     /**
-     * Gets the config file path.
-     *
-     * @return string
-     */
-    public function getConfigFilePath();
-
-    /**
      * Gets the path of the migration files.
      *
      * @return string
